@@ -15,6 +15,18 @@
   height: auto;
 }
 
+.flex-col{
+	display: flex;
+	justify-content: center;
+	flex-flow:column; 
+	align-items: center;
+}
+
 h1,h2 {
 	max-width: 600px;
+}
+
+p{
+	max-width: 600px;
+	font-family: Lato;
 }
